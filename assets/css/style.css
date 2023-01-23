@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main h1{
+    text-align: center;
+}
+
+main section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+main div{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 3rem;
+}
+
+main div:hover{
+    box-shadow: 10px 15px 15px #000000;
+}
+
+.ballOne{
+    background: #FFEA20;
+    background: linear-gradient(45deg, #FFEA20 50%, #8DCBE6 50%);
+}
+
+.ballTwo{
+    background: #2B3467;
+    background: linear-gradient(45deg, #FCFFE7 50%, #2B3467 50%);
+}
+
+.ballThree{
+    background: #FEDB39;
+    background: linear-gradient(45deg, #FEDB39 50%, #D61C4E 50%);
+}
+
+.ballFour{
+    background: #FFD4D4;
+    background: linear-gradient(45deg, #FFD4D4 50%, #CDE990 50%);
+}
